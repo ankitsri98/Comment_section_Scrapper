@@ -1,0 +1,97 @@
+div.filter-class {
+    padding-top: 10px;
+}
+
+div.filter-title img {
+    width: 28px;
+    padding-top: 6px;
+    margin-right: 10px;
+    vertical-align: bottom;
+    height: auto;
+    float: left;
+}
+
+div.creator-filter {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+form.filter-form {
+    padding-left: 0%;
+}
+
+div.input-field {
+    max-width: 500px;
+    padding-left: 10px;
+    margin-bottom: 0px;
+}
+
+div.input-field label {
+    padding-left: 10px;
+}
+
+label.likes-filter-label {
+    font-size: 15px;
+    padding-right: 10px;
+}
+
+input#likes-filter {
+    width: 50px;
+}
+
+div.likes-filter-input {
+    padding-top: 10px;
+}
+
+input#word-filter {
+    padding-right: 0px;
+}
+
+span.creator-filter-text {
+    font-size: 15px;
+    padding-right: 10px;
+    vertical-align: top;
+}
+
+div.word-filter-row{
+    margin: 0px;
+    margin-left: -10px;
+}
+
+div.user-filter-row{
+    margin: 0px;
+    margin-left: -10px;
+}
+
+select.date-filter {
+    max-width: 300px;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+[type="checkbox"].filled-in:not(:checked)+span:not(.lever):after {
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    border: 1px solid #a9a9a9;
+    top: 0px;
+    z-index: 0;
+}
+
+@media only screen and (max-width: 1150px) {
+    span.creator-filter-text {
+        font-size: 12px;
+    }
+
+    label.likes-filter-label {
+        font-size: 12px;
+    }
+
+    .input-field.col label {
+        font-size: 12px;
+    }
+
+    select.date-filter {
+        font-size: 12px;
+    }
+}

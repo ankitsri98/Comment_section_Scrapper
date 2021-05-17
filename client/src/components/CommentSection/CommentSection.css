@@ -1,0 +1,71 @@
+div.comment-thread {
+  padding-left: 10px;
+  padding-right: 10px
+}
+
+div.comment-class-reply {
+  padding-left: 50px;
+}
+
+div.comment-header img, div.comment-header-creator img {
+  vertical-align:middle
+}
+
+div.comment-header, div.comment-header-creator{
+  background: #c2c6ce;
+  padding: 10px
+}
+
+div.comment-header-creator { 
+  background: #fffdea
+}
+
+div.comment-content {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 1px;
+}
+
+div.finder {
+  background: #c3ffb5;
+}
+
+div.no-comments-card {
+  padding-top: 20px;
+  padding-bottom: 20px
+}
+
+div.comment-title {
+  text-align: center;
+}
+
+div.comment-title h3 {
+  display: inline-block;
+}
+
+img.comment-icon {
+  width: 40px;
+  margin-right: 10px;
+  vertical-align: bottom;
+  padding-bottom: 17px;
+}
+
+@media only screen and (max-width: 500px) {
+  div.comment-class h3 {
+    font-size: 30px;
+  } 
+
+  img.comment-icon {
+    width: 28px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  div.comment-class h3 {
+    font-size: 25px;
+  } 
+
+  img.comment-icon {
+    width: 25px;
+  }
+}
