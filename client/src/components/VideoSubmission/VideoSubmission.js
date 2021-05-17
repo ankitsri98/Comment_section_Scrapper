@@ -115,7 +115,7 @@ class VideoSubmission extends Component {
           <h5 className="col offset-s0 center">Scrapes comments without using the YouTube API</h5>
           <div className="github-repo center">
             <img src={gitIcon} alt="" />
-            <a className="github-link" href="https://commentscraper.herokuapp.com/"
+            <a className="github-link" href="https://github.com/ankitsri98/Comment_section_Scrapper"
               target="_blank" rel="noopener noreferrer">GitHub Repo</a>
           </div>
         </div>
