@@ -51,7 +51,7 @@ class Progress extends Component {
             <p>If your progress is hanging (no progress made within 120 seconds), or an incorrect error shows up: </p>
             <p>1. Refresh and try again</p>
             <span>2. Send your progress log and your link to my </span>
-            <a href="https://commentscraper.herokuapp.com/"
+            <a href="https://github.com/ankitsri98/Comment_section_Scrapper"
               target="_blank" rel="noopener noreferrer">GitHub</a>
           </div>
         </div>
